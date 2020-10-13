@@ -1,0 +1,29 @@
+body
+{
+    background: linear-gradient(to right,#21edc8,#3115e6);
+}
+@font-face
+{
+	font-family: sevenSegment;
+	src: url(seven-segment.ttf);
+}
+
+h1
+{
+    font-family: sevenSegment;
+    font-size: 15em;
+    color: black;
+    text-align: center;
+}
+
+h2
+{
+    font-family: sevenSegment;
+    color: gold;
+    text-align: center;
+    font-size: 85px;
+}
+.container
+{
+    border: 15px solid black;
+}
