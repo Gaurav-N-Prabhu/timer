@@ -7,7 +7,7 @@ setInterval( function()
     if( counter >= 0 )
     {
         id = document.getElementById("count");
-        id.innerHTML = counter+"-"+"sec";
+        id.innerHTML = counter;
     }
 
     if( counter === 0 )
