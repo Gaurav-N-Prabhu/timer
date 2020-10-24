@@ -11,7 +11,7 @@ body
 h1
 {
     font-family: sevenSegment;
-    font-size: 15em;
+    font-size: 85px;
     color: black;
     text-align: center;
 }
@@ -22,8 +22,4 @@ h2
     color: gold;
     text-align: center;
     font-size: 85px;
-}
-.container
-{
-    border: 15px solid black;
 }
