@@ -1,4 +1,4 @@
-var counter = window.prompt("Enter the number in  secs : ");
+var counter = window.prompt("Enter the number in  sec : ");
 
 setInterval( function()
 {
@@ -7,6 +7,11 @@ setInterval( function()
     if( counter >= 0 )
     {
         id = document.getElementById("count").innerHTML = counter;
-        id = document.getElementById("sec").innerHTML = "sec";
+		id = document.getElementById("sec").innerHTML = "sec";
     }
+	if(counter == 0)
+	{
+		id = document.getElementById("count").innerHTML = "COMPLETE";
+		id = document.getElementById("sec").innerHTML = "";
+	}
 }, 1000);
