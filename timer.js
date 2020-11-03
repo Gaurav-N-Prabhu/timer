@@ -6,13 +6,7 @@ setInterval( function()
 
     if( counter >= 0 )
     {
-        id = document.getElementById("count");
-        id.innerHTML = counter;
-    }
-
-    if( counter === 0 )
-    {
-        id.innerHTML = "COMPLETE";
+        id = document.getElementById("count").innerHTML = counter;
+        id = document.getElementById("sec").innerHTML = "sec";
     }
 }, 1000);
-
