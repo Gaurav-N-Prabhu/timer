@@ -1,4 +1,4 @@
-var counter = 60;
+var counter = window.prompt("Enter the number in  secs : ");
 
 setInterval( function()
 {
@@ -15,3 +15,4 @@ setInterval( function()
         id.innerHTML = "COMPLETE";
     }
 }, 1000);
+
