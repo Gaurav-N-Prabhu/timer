@@ -1,4 +1,4 @@
-var counter = window.prompt("Enter the number in  sec : ");
+var counter = window.prompt("Enter the number(in seconds) : ");
 
 setInterval( function()
 {
